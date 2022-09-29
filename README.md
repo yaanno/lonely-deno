@@ -5,6 +5,12 @@ Checking out the `islands` concept.
 
 ### Usage
 
+Get Deno & Fresh first:
+
+```
+brew install deno
+```
+
 Start the project:
 
 ```
