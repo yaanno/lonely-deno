@@ -1,18 +1,18 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 
+import { Article, Place, Tag } from "../data/models.ts";
+import db from "../data/models.ts";
+
 import Card from "../components/card.tsx";
 import Layout from "../components/layout.tsx";
-
-import { Article } from "../data/models.ts";
-import db from "../data/models.ts";
 import TagFilter from "../islands/TagFilter.tsx";
 import PlaceFilter from "../islands/PlaceFilter.tsx";
 
 interface Data {
   results: Article[];
-  order: string;
-  tags: string[];
-  places: string[];
+  order?: string;
+  tags: Tag[];
+  places: Place[];
   selectedTag?: string;
   selectedPlace?: string;
 }
@@ -28,13 +28,17 @@ export const handler: Handlers = {
     const places = await db.getAllPlaces();
 
     let results: Article[];
-    if (tag) {
+
+    if (tag && !place) {
       results = await db.getByTag(tag);
-    } else if (place) {
+    } else if (place && !tag) {
       results = await db.getByPlace(place);
+    } else if (tag && place) {
+      results = await db.getLatestByMulti(place, tag);
     } else {
       results = await db.getLatest(order);
     }
+
     return await ctx.render({
       results,
       order,

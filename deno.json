@@ -1,7 +1,7 @@
 {
   "tasks": {
     "start": "deno run -A --watch=static/,routes/ dev.ts",
-    "serve": "deno run -A main.ts"
+    "serve": "DENO_DEPLOYMENT_ID='no-alive' deno run -A main.ts"
   },
   "importMap": "./import_map.json",
   "compilerOptions": {

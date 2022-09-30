@@ -1,4 +1,4 @@
-import { ComponentChildren } from "https://esm.sh/v95/preact@10.11.0/src/index.d.ts";
+import { ComponentChild } from "https://esm.sh/v95/preact@10.11.0/src/index.d.ts";
 
 export default function Pill({
   children,
@@ -6,7 +6,7 @@ export default function Pill({
   color,
   type,
 }: {
-  children: ComponentChildren;
+  children: ComponentChild;
   classNames?: string;
   color: string;
   type: string;
