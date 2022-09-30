@@ -3,40 +3,31 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import Card from "../components/card.tsx";
 import Layout from "../components/layout.tsx";
 
-import articleData from "../data/articles.json" assert { type: "json" };
-
-interface Article {
-  title: string;
-  excerpt: string;
-  tags: string[];
-  slug: string;
-  categories: string[];
-  type: string;
-  url: string;
-  published_at: string;
-  related_place_names: string[] | null;
-  related_place_slugs: string[] | null;
-}
+import { Article } from "../data/models.ts";
+import db from "../data/models.ts";
 
 export type ArticleCondensed = Omit<Article, "type" | "slug" | "categories">;
 
 interface Data {
   results: ArticleCondensed[];
-  query: string;
+  order: string;
 }
 
 export const handler: Handlers = {
   async GET(req, ctx) {
     const url = new URL(req.url);
-    const query = url.searchParams.get("order") || "desc";
-    const sorted = articleData.sort((a1, a2) => {
-      if (query === "asc") {
-        return Date.parse(a1.published_at) - Date.parse(a2.published_at);
-      }
-      return Date.parse(a2.published_at) - Date.parse(a1.published_at);
-    });
-    const results = sorted.slice(0, 10);
-    return await ctx.render({ results, query });
+    const order = url.searchParams.get("order") || "desc";
+    const tag = url.searchParams.get("tag");
+    const place = url.searchParams.get("place");
+    let results;
+    if (tag) {
+      results = await db.getByTag(tag);
+    } else if (place) {
+      results = await db.getByPlace(place);
+    } else {
+      results = await db.getLatest(order);
+    }
+    return await ctx.render({ results, order });
   },
 };
 

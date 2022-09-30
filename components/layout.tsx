@@ -2,7 +2,7 @@ import { ComponentChildren } from "https://esm.sh/v95/preact@10.11.0/src/index.d
 
 export default function Layout({ children }: { children: ComponentChildren }) {
   return (
-    <div className="w-full h-full min-h-screen bg-green-200 flex flex-col items-center gap-y-4 py-4">
+    <div className="w-full h-full min-h-screen bg-green-200 flex flex-col items-center gap-y-8 py-4">
       <h1 className="text-4xl md:text-5xl lg:text-6xl">
         <a href="/">Latest on Lonely Planet</a>
       </h1>

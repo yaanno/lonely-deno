@@ -5,19 +5,19 @@ export default function Pill({
   children,
   classNames = "",
   color,
+  type,
 }: {
   children: ComponentChildren;
   classNames?: string;
   color: string;
+  type: string;
 }) {
   const [click, clickHandler] = useState(null);
   return (
     <div
       className={`${classNames} bg-${color}-50 hover:bg-${color}-100 rounded-xl py-1 px-2`}
     >
-      <a href="#" onClick={(e) => console.log(e)}>
-        {children}
-      </a>
+      <a href={`?${type}=${children?.toString().toLowerCase()}`}>{children}</a>
     </div>
   );
 }

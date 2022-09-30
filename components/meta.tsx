@@ -6,7 +6,7 @@ export default function Meta({
   source: string;
 }) {
   return (
-    <p className="font-light mb-1.5">
+    <p className="font-light mb-1.5 flex-1">
       <span className="italic">{published_at}</span> |{" "}
       <span className="font-bold">{source}</span>
     </p>
