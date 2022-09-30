@@ -1,4 +1,4 @@
-import Pill from "./pill.tsx";
+import PillStack from "./pill-stack.tsx";
 
 export default function Related({
   tags,
@@ -10,23 +10,9 @@ export default function Related({
   return (
     <div className="mt-2">
       {tags?.length ? (
-        <div className="flex flex-wrap w-full gap-1 mb-1.5 mt-4">
-          {tags?.map((tag) => (
-            <Pill color="green" type="tag">
-              {tag}
-            </Pill>
-          ))}
-        </div>
+        <PillStack stack={tags} type="tag" classNames="mt-4" />
       ) : null}
-      {places?.length ? (
-        <div className="flex flex-wrap w-full gap-1 mb-1.5">
-          {places?.map((place) => (
-            <Pill color="red" type="place">
-              {place}
-            </Pill>
-          ))}
-        </div>
-      ) : null}
+      {places?.length ? <PillStack stack={places} type="place" /> : null}
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { ArticleCondensed } from "../routes/index.tsx";
+import { Article } from "../data/models.ts";
 import Meta from "./meta.tsx";
 import Related from "./related.tsx";
 import Title from "./title.tsx";
@@ -10,7 +10,7 @@ export default function Card({
   published_at,
   tags,
   related_place_names,
-}: ArticleCondensed) {
+}: Article) {
   return (
     <div className="flex-1 min-w-full md:min-w-[25%] max-w-[50%] md:first-of-type:min-w-[50%] rounded-2xl ring-1 ring-green-100 hover:ring-green-300 p-4 flex flex-col">
       <Title url={url} title={title} />

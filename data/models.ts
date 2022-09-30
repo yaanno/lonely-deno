@@ -3,9 +3,9 @@ import articleData from "../data/articles.json" assert { type: "json" };
 export interface Article {
   title: string;
   excerpt: string;
-  tags: string[];
+  tags: string[] | null;
   slug: string;
-  categories: string[];
+  categories: string[] | null;
   type: string;
   url: string;
   published_at: string;
@@ -13,23 +13,27 @@ export interface Article {
   related_place_slugs: string[] | null;
 }
 
-export async function getLatest(order: string) {
-  const articles = await articleData;
-  const sortedArticles = articles.sort((a1, a2) => {
+export function sortBy(articles: Article[], order = "desc") {
+  return articles.sort((a1, a2) => {
     if (order === "asc") {
       return Date.parse(a1.published_at) - Date.parse(a2.published_at);
     }
     return Date.parse(a2.published_at) - Date.parse(a1.published_at);
   });
-  return sortedArticles.slice(0, 10);
+}
+
+export async function getLatest(order: string, max = 20) {
+  const articles = await articleData;
+  const sortedArticles = sortBy(articles, order);
+  return sortedArticles.slice(0, max);
 }
 
 export async function getByTag(tag: string) {
   const articles = await articleData.filter((article) => {
     const tags = article.tags?.map((tag) => tag.toLowerCase());
-    return tags?.includes(tag);
+    return tags?.includes(tag.toLowerCase());
   });
-  return articles.slice(0, 10);
+  return sortBy(articles);
 }
 
 export async function getByPlace(place: string) {
@@ -37,15 +41,45 @@ export async function getByPlace(place: string) {
     const places = article.related_place_names?.map((place) =>
       place.toLowerCase()
     );
-    return places?.includes(place);
+    return places?.includes(place.toLowerCase());
   });
-  return articles.slice(0, 10);
+  return sortBy(articles);
+}
+
+export async function getAllTags(): Promise<string[]> {
+  const articles = await articleData.filter((article) => article.tags?.length);
+  const tags = new Set<string>();
+  for (const article of articles) {
+    for (const tag of article.tags || []) {
+      if (!tag.match(/-/)) {
+        tags.add(tag.toLowerCase());
+      }
+    }
+  }
+  return Array.from(tags).sort();
+}
+
+export async function getAllPlaces(): Promise<string[]> {
+  const articles = await articleData.filter(
+    (article) => article.related_place_names?.length
+  );
+  const places = new Set<string>();
+  for (const article of articles) {
+    for (const place of article.related_place_names || []) {
+      if (!place.match(/-/)) {
+        places.add(place);
+      }
+    }
+  }
+  return Array.from(places).sort();
 }
 
 const db = {
   getLatest,
   getByTag,
   getByPlace,
+  getAllTags,
+  getAllPlaces,
 };
 
 export default db;
