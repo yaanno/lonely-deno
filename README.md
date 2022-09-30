@@ -11,7 +11,7 @@ Get Deno & Fresh first:
 brew install deno
 ```
 
-Start the project:
+Start the project in `dev` mode:
 
 ```
 deno task start
@@ -19,6 +19,16 @@ deno task start
 
 This will watch the project directory and restart as necessary.
 
+Start the project in `build` mode:
+
+```
+deno task serve
+```
+
+This will disable the watch function and simply serve the latest "build". In
+reality just loads the latest project files (super fast) in SSR mode.
+
 ### TODO
 
-The actual interactive part... :)
+- proper composed filtering
+- normalled data
