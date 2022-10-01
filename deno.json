@@ -1,7 +1,7 @@
 {
   "tasks": {
-    "start": "deno run -A --watch=static/,routes/ dev.ts",
-    "serve": "DENO_DEPLOYMENT_ID='no-alive' deno run -A main.ts",
+    "start": "deno run --unstable -A --watch=static/,routes/ dev.ts",
+    "serve": "DENO_DEPLOYMENT_ID='no-alive' deno run --unstable -A main.ts",
     "npm:add": "deno run -A https://esm.sh/v96 add",
     "npm:update": "deno run -A https://esm.sh/v96 update",
     "npm:remove": "deno run -A https://esm.sh/v96 remove"
@@ -9,6 +9,7 @@
   "importMap": "./import_map.json",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "preact",
+    "types": ["preact"]
   }
 }

@@ -7,7 +7,26 @@
     "preact": "https://esm.sh/preact@10.11.0",
     "preact/": "https://esm.sh/preact@10.11.0/",
     "twind": "https://esm.sh/twind@0.16.17",
-    "twind/": "https://esm.sh/twind@0.16.17/"
+    "twind/": "https://esm.sh/twind@0.16.17/",
+    "@babel/runtime": "https://esm.sh/v96/*@babel/runtime@7.19.0",
+    "@babel/runtime/": "https://esm.sh/v96/*@babel/runtime@7.19.0/",
+    "@geist-ui/icons": "https://esm.sh/v96/*@geist-ui/icons@1.0.2",
+    "react": "https://esm.sh/v96/*react@18.2.0",
+    "react/": "https://esm.sh/v96/*react@18.2.0/"
   },
-  "scopes": {}
+  "scopes": {
+    "@babel/runtime": {
+      "regenerator-runtime": "https://esm.sh/v96/regenerator-runtime@0.13.9"
+    },
+    "@babel/runtime/": {
+      "regenerator-runtime": "https://esm.sh/v96/regenerator-runtime@0.13.9"
+    },
+    "@geist-ui/icons": {},
+    "react": {
+      "loose-envify": "https://esm.sh/v96/loose-envify@1.4.0"
+    },
+    "react/": {
+      "loose-envify": "https://esm.sh/v96/loose-envify@1.4.0"
+    }
+  }
 }
