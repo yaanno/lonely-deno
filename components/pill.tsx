@@ -1,4 +1,4 @@
-import { ComponentChild } from "https://esm.sh/v95/preact@10.11.0/src/index.d.ts";
+import { ComponentChild } from "preact";
 
 export default function Pill({
   children,
