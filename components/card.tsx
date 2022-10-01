@@ -12,7 +12,7 @@ export default function Card({
   related_place_names,
 }: Article) {
   return (
-    <div className="flex-1 min-w-full md:min-w-[25%] max-w-[50%] rounded-2xl ring-1 ring-green-100 hover:ring-green-300 p-4 flex flex-col">
+    <div className="min-w(full md:[33%] lg:[25%]) max-w-[50%] ring(1 green(50 hover:200)) hover:shadow-sm rounded p(2 md:4) flex-1 flex flex-col">
       <Title url={url} title={title} />
       <p className="font-light mb-1.5">{excerpt}</p>
       <Meta

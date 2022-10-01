@@ -58,7 +58,7 @@ export default function Home({ data }: PageProps<Data>) {
         <TagFilter tags={tags} selectedTag={selectedTag} />
         <PlaceFilter places={places} selectedPlace={selectedPlace} />
       </div>
-      <div className="flex flex-wrap w-full p-6 bg-white gap-4 rounded-xl">
+      <div className="flex flex(wrap row) w-full p(2 sm:4) bg-white gap-4 rounded shadow-sm">
         {results.map((article) => (
           <Card {...article} />
         ))}

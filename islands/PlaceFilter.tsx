@@ -11,9 +11,9 @@ export default function PlaceFilter({
   // @ts-ignore: proper typing needed for the ref
   const onChange = () => form.current && form.current.submit();
   return (
-    <form ref={form} method="GET" className="rounded-xl">
+    <form ref={form} method="GET" className="rounded-xl max-w-full">
       <select
-        className="py-2 px-4 rounded-xl hover:cursor-pointer bg-green-50"
+        className="py-2 px-4 rounded-xl hover:cursor-pointer bg-green-50 max-w-full"
         name="place"
         onChange={onChange}
       >
