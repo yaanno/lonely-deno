@@ -9,7 +9,7 @@ export default function Card({
   excerpt,
   published_at,
   tags,
-  related_place_names,
+  places,
 }: Article) {
   return (
     <div className="min-w(full md:[33%] lg:[25%]) max-w-[50%] ring(1 green(50 hover:200)) hover:shadow-sm rounded p(2 md:4) flex-1 flex flex-col">
@@ -19,7 +19,7 @@ export default function Card({
         published_at={new Date(published_at).toDateString()}
         source="Lonely Planet"
       />
-      <Related tags={tags} places={related_place_names} />
+      <Related tags={tags} places={places} />
     </div>
   );
 }

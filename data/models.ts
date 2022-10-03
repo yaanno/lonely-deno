@@ -9,8 +9,7 @@ export interface Article {
   type: string;
   url: string;
   published_at: string;
-  related_place_names: Place[] | null;
-  related_place_slugs: string[] | null;
+  places: Place[] | null;
 }
 
 export type Tag = string;
@@ -20,15 +19,20 @@ export type Place = string;
  * Sort the collection in `asc` or `desc` order
  * @param articles `Article[]`
  * @param order `string`, default: `desc`
+ * @param by `string` default `date`
  * @returns Sorted article list
  */
-function sortBy(articles: Article[], order = "desc") {
-  return articles.sort((a1, a2) => {
-    if (order === "asc") {
-      return Date.parse(a1.published_at) - Date.parse(a2.published_at);
-    }
-    return Date.parse(a2.published_at) - Date.parse(a1.published_at);
-  });
+function sortBy(articles: Article[], order = "desc", by = "date") {
+  switch (by) {
+    case "date":
+    default:
+      return articles.sort((a1, a2) => {
+        if (order === "asc") {
+          return Date.parse(a1.published_at) - Date.parse(a2.published_at);
+        }
+        return Date.parse(a2.published_at) - Date.parse(a1.published_at);
+      });
+  }
 }
 
 /**
@@ -36,16 +40,16 @@ function sortBy(articles: Article[], order = "desc") {
  * @param collection
  * @returns
  */
-function dedupe(collection: Place[] | Tag[] | null) {
-  if (!collection?.length) return [];
-  const itemSet = new Set<string>();
-  for (const item of collection) {
-    if (!item.match(/-/)) {
-      itemSet.add(item.toLowerCase());
-    }
-  }
-  return Array.from(itemSet);
-}
+// function dedupe(collection: Place[] | Tag[] | null) {
+//   if (!collection?.length) return [];
+//   const itemSet = new Set<string>();
+//   for (const item of collection) {
+//     if (!item.match(/-/)) {
+//       itemSet.add(item.toLowerCase());
+//     }
+//   }
+//   return Array.from(itemSet);
+// }
 
 /**
  * Fetch and preprocess `Article` items from the json store
@@ -54,22 +58,34 @@ function dedupe(collection: Place[] | Tag[] | null) {
  * @returns `Article[]`
  */
 export async function getLatest(order = "desc", max = 20) {
-  const articles = await articleData.map((article) => {
-    article.tags = dedupe(article.tags);
-    article.related_place_names = dedupe(article.related_place_names);
-    return article;
-  });
+  const articles = await articleData;
   const sortedArticles = sortBy(articles, order);
   return sortedArticles.slice(0, max);
 }
 
-export async function getLatestByMulti(place: Place, tag: Tag) {
-  return await articleData.filter((article) => {
-    return (
-      article.tags?.includes(tag.toLowerCase()) &&
-      article.related_place_names?.includes(place.toLowerCase())
-    );
+/**
+ * Fetch and return `Article` items from the json store
+ * where some of the `Place` or `Tag` are a match
+ * @param places
+ * @param tags
+ * @param order
+ * @param max
+ * @returns
+ */
+export async function getLatestByMulti(
+  places: Place[],
+  tags: Tag[],
+  order = "desc",
+  max = 20
+) {
+  const articles = await articleData.filter((article) => {
+    return places.length
+      ? article.places?.some((place) => places.includes(place.toLowerCase()))
+      : true && tags.length
+      ? article.tags?.some((tag) => tags.includes(tag.toLowerCase()))
+      : true;
   });
+  return sortBy(articles, order).slice(0, max);
 }
 
 /**
@@ -79,8 +95,7 @@ export async function getLatestByMulti(place: Place, tag: Tag) {
  */
 export async function getByTag(tag: Tag) {
   const articles = await articleData.filter((article) => {
-    const tags = dedupe(article.tags);
-    return tags?.includes(tag.toLowerCase());
+    return article.tags?.includes(tag.toLowerCase());
   });
   return sortBy(articles);
 }
@@ -92,8 +107,7 @@ export async function getByTag(tag: Tag) {
  */
 export async function getByPlace(place: Place) {
   const articles = await articleData.filter((article) => {
-    const places = dedupe(article.related_place_names);
-    return places?.includes(place.toLowerCase());
+    return article.places?.includes(place.toLowerCase());
   });
   return sortBy(articles);
 }
@@ -103,13 +117,13 @@ export async function getByPlace(place: Place) {
  * @returns List of tags
  */
 export async function getAllTags(): Promise<Tag[]> {
-  const articles = await articleData.filter((article) => article.tags?.length);
+  const articlesWithTags = await articleData.filter(
+    (article) => article.tags?.length
+  );
   const tags = new Set<string>();
-  for (const article of articles) {
+  for (const article of articlesWithTags) {
     for (const tag of article.tags || []) {
-      if (!tag.match(/-/)) {
-        tags.add(tag.toLowerCase());
-      }
+      tags.add(tag.toLowerCase());
     }
   }
   return Array.from(tags).sort();
@@ -120,15 +134,13 @@ export async function getAllTags(): Promise<Tag[]> {
  * @returns List of places
  */
 export async function getAllPlaces(): Promise<Place[]> {
-  const articles = await articleData.filter(
-    (article) => article.related_place_names?.length
+  const articlesWithPlaces = await articleData.filter(
+    (article) => article.places?.length
   );
   const places = new Set<string>();
-  for (const article of articles) {
-    for (const place of article.related_place_names || []) {
-      if (!place.match(/-/)) {
-        places.add(place);
-      }
+  for (const article of articlesWithPlaces) {
+    for (const place of article.places || []) {
+      places.add(place);
     }
   }
   return Array.from(places).sort();

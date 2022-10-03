@@ -5,39 +5,27 @@ import db from "../data/models.ts";
 
 import Card from "../components/card.tsx";
 import Layout from "../components/layout.tsx";
-import TagFilter from "../islands/TagFilter.tsx";
-import PlaceFilter from "../islands/PlaceFilter.tsx";
+import SearchForm from "../islands/SearchForm.tsx";
 
 interface Data {
   results: Article[];
   order?: string;
   tags: Tag[];
   places: Place[];
-  selectedTag?: string;
-  selectedPlace?: string;
+  selectedTag?: string[];
+  selectedPlace?: string[];
 }
 
 export const handler: Handlers = {
   async GET(req, ctx) {
     const url = new URL(req.url);
     const order = url.searchParams.get("order") || "desc";
-    const tag = url.searchParams.get("tag");
-    const place = url.searchParams.get("place");
-
+    const tag = url.searchParams.getAll("tag");
+    const place = url.searchParams.getAll("place");
     const tags = await db.getAllTags();
     const places = await db.getAllPlaces();
 
-    let results: Article[];
-
-    if (tag && !place) {
-      results = await db.getByTag(tag);
-    } else if (place && !tag) {
-      results = await db.getByPlace(place);
-    } else if (tag && place) {
-      results = await db.getLatestByMulti(place, tag);
-    } else {
-      results = await db.getLatest(order);
-    }
+    const results = await db.getLatestByMulti(place, tag);
 
     return await ctx.render({
       results,
@@ -52,11 +40,11 @@ export const handler: Handlers = {
 
 export default function Home({ data }: PageProps<Data>) {
   const { results, tags, places, selectedPlace, selectedTag } = data;
+  const searchFormProps = { tags, places, selectedPlace, selectedTag };
   return (
     <Layout>
-      <div className="flex flex-wrap w-full p-2 gap-4 rounded-xl">
-        <TagFilter tags={tags} selectedTag={selectedTag} />
-        <PlaceFilter places={places} selectedPlace={selectedPlace} />
+      <div className="w-full my-4">
+        <SearchForm {...searchFormProps} />
       </div>
       <div className="flex flex(wrap row) w-full p(2 sm:4) bg-white gap-4 rounded shadow-sm">
         {results.map((article) => (

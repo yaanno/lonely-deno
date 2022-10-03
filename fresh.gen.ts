@@ -7,7 +7,8 @@ import * as $0 from "./routes/_404.tsx";
 import * as $1 from "./routes/_app.tsx";
 import * as $2 from "./routes/index.tsx";
 import * as $$0 from "./islands/PlaceFilter.tsx";
-import * as $$1 from "./islands/TagFilter.tsx";
+import * as $$1 from "./islands/SearchForm.tsx";
+import * as $$2 from "./islands/TagFilter.tsx";
 
 const manifest = {
   routes: {
@@ -17,7 +18,8 @@ const manifest = {
   },
   islands: {
     "./islands/PlaceFilter.tsx": $$0,
-    "./islands/TagFilter.tsx": $$1,
+    "./islands/SearchForm.tsx": $$1,
+    "./islands/TagFilter.tsx": $$2,
   },
   baseUrl: import.meta.url,
   config,

@@ -2,20 +2,19 @@
   {
     "title": "Relish the distinctive cuisine of Mangaluru & Udupi",
     "excerpt": "Being influenced by various communities, thus the blend of flavours at Manguluru & Udupi is delicious ",
-    "tags": ["Food", "in-en", "Local's Guide"],
+    "tags": ["Food", "Local's Guide"],
     "slug": "cuisine-of-mangalore",
     "categories": ["food-and-drink"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/cuisine-of-mangalore",
     "published_at": "2020-09-23T14:42:42Z",
-    "related_place_names": ["Mangaluru (Mangalore)", "Udupi"],
+    "places": ["Mangaluru (Mangalore)", "Udupi"],
     "related_place_slugs": ["india/karnataka/mangalore", "india/udupi"]
   },
   {
     "title": "Best places for staycations in the metros",
     "excerpt": "Top picks for staycations in metro cities for a quick getaway from your homes and quarantine living.",
     "tags": [
-      "in-en",
       "urbanexplorers",
       "Accessible Travel",
       "Luxury",
@@ -23,11 +22,11 @@
       "Accommodation"
     ],
     "slug": "staycations-in-metro-cities",
-    "categories": ["accessible-travel", "luxury-travel"],
+    "categories": ["luxury-travel"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/staycations-in-metro-cities",
     "published_at": "2020-09-21T13:07:05Z",
-    "related_place_names": [
+    "places": [
       "Delhi",
       "Mumbai (Mumbai)",
       "Bengaluru (Bangalore)",
@@ -45,13 +44,13 @@
   {
     "title": "Koh Lipe: The gypsy island that speaks a fusion of Thai and Malay",
     "excerpt": "A pristine and quaint island at Thai-Malay border is not only a visual treat but where you also witness a fusion of Thai & Malay traditions",
-    "tags": ["in-en", "Local's Guide"],
+    "tags": ["Local's Guide"],
     "slug": "koh-lipe-in-thailand",
     "categories": ["beaches-coasts-and-islands", "explore"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/koh-lipe-in-thailand",
     "published_at": "2020-09-25T09:51:37Z",
-    "related_place_names": ["Ko Tarutao", "Ko Lipe"],
+    "places": ["Ko Tarutao", "Ko Lipe"],
     "related_place_slugs": [
       "thailand/andaman-coast/ko-tarutao",
       "thailand/andaman-coast/ko-lipe"
@@ -66,7 +65,7 @@
     "type": "Kids Blog Post",
     "url": "https://www.lonelyplanet.com/articles/flag-of-namibia-facts-history-and-design",
     "published_at": "2020-08-19T08:48:10Z",
-    "related_place_names": ["Namibia"],
+    "places": ["Namibia"],
     "related_place_slugs": ["namibia"]
   },
   {
@@ -78,19 +77,19 @@
     "type": "Kids Blog Post",
     "url": "https://www.lonelyplanet.com/articles/flag-of-the-bahamas-meaning",
     "published_at": "2020-08-19T08:48:25Z",
-    "related_place_names": ["The Bahamas"],
+    "places": ["The Bahamas"],
     "related_place_slugs": ["the-bahamas"]
   },
   {
     "title": "How this heritage family from Kolkata is gearing up to celebrate Durga puja this year",
     "excerpt": "With a low key celebration and new norms, the Bonedi families prepares to welcome Ma Durga in their traditional ways.",
-    "tags": ["Culture", "Festival", "in-en"],
+    "tags": ["Culture", "Festival"],
     "slug": "durga-puja-celebration-in-2020",
     "categories": ["art-and-culture", "festivals"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/durga-puja-celebration-in-2020",
     "published_at": "2020-09-24T11:17:24Z",
-    "related_place_names": ["Kolkata (Calcutta)"],
+    "places": ["Kolkata (Calcutta)"],
     "related_place_slugs": ["india/kolkata-calcutta"]
   },
   {
@@ -102,24 +101,19 @@
     "type": "Kids Blog Post",
     "url": "https://www.lonelyplanet.com/articles/flag-of-kenya-facts-history-and-design",
     "published_at": "2020-08-19T08:48:16Z",
-    "related_place_names": ["Kenya"],
+    "places": ["Kenya"],
     "related_place_slugs": ["kenya"]
   },
   {
     "title": "How fine dining came home in 2020, and will continue to do so in 2021",
     "excerpt": "Since the lockdown in March, many restaurants in India faced a hit that changed the face of business forever. While most restaurants have since opened…",
-    "tags": ["Food", "in-en"],
+    "tags": ["Food"],
     "slug": "how-fine-dining-came-home-in-2020-and-will-continue-to-grow-in-2021",
     "categories": ["food-and-drink"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/how-fine-dining-came-home-in-2020-and-will-continue-to-grow-in-2021",
     "published_at": "2020-12-23T06:51:10Z",
-    "related_place_names": [
-      "India",
-      "Delhi",
-      "Chennai (Madras)",
-      "Mumbai (Mumbai)"
-    ],
+    "places": ["India", "Delhi", "Chennai (Madras)", "Mumbai (Mumbai)"],
     "related_place_slugs": [
       "india",
       "india/delhi",
@@ -131,7 +125,6 @@
     "title": "Traveling in 2021 - here's what to expect",
     "excerpt": "It is 2021! We survived the roller coaster of a year that 2020 was and the new year brings with it much cheer and hope. New year is also the time when are…",
     "tags": [
-      "in-en",
       "Work Travel",
       "Travellers",
       "Health & Wellness",
@@ -142,13 +135,12 @@
       "art-and-culture",
       "backpacking",
       "explore",
-      "family-holidays",
-      "road-trips"
+      "family-holidays"
     ],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/traveling-in-2021-here-is-what-to-expect",
     "published_at": "2021-01-01T01:04:29Z",
-    "related_place_names": ["India"],
+    "places": ["India"],
     "related_place_slugs": ["india"]
   },
   {
@@ -160,7 +152,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/konya-the-place-where-rumi-rests",
     "published_at": "2020-12-18T13:41:06Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -172,7 +164,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/treasured-possessions-9-iconic-museum-objects-in-india",
     "published_at": "2021-01-04T05:01:06Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -184,7 +176,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/exciting-new-hotels-to-check-into-this-year",
     "published_at": "2021-01-27T11:22:34Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -196,19 +188,19 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/india-may-soon-open-to-foriegn-tourits-here-are-the-details",
     "published_at": "2021-01-29T08:45:49Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
     "title": "Meet the banker behind Delhi's favorite chocolate factory",
     "excerpt": "An Instagram live that banker Sheetal Saxena watched back in 2019, set the foundation of her entrepreneurial journey. Just a year and a half later, she is…",
-    "tags": ["Culture", "Food", "in-en"],
+    "tags": ["Culture", "Food"],
     "slug": "meet-the-banker-behind-delhi-s-favorite-chocolate-factory",
     "categories": ["food-and-drink"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/meet-the-banker-behind-delhi-s-favorite-chocolate-factory",
     "published_at": "2021-03-04T18:24:22Z",
-    "related_place_names": ["Delhi"],
+    "places": ["Delhi"],
     "related_place_slugs": ["india/delhi"]
   },
   {
@@ -220,7 +212,7 @@
     "type": "Affiliate Review",
     "url": "https://www.lonelyplanet.com/articles/outdoor-gift-guide",
     "published_at": "2020-11-15T22:10:41Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -232,31 +224,19 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/a-holiday-in-galle",
     "published_at": "2021-07-29T13:03:53Z",
-    "related_place_names": ["Sri Lanka"],
+    "places": ["Sri Lanka"],
     "related_place_slugs": ["sri-lanka"]
   },
   {
     "title": "Airbnb wants to help travellers interact ethically with animals ",
     "excerpt": "Maybe it’s urban societies’ disconnect from nature, or maybe it’s the fact that animal pics and  and videos are just so darn cute, but regardless of the rationale, the fact remains that interaction with local wildlife is a major tourism draw around the world – for better or for worse, more often than not for the latter. ",
-    "tags": [
-      "Sustainable Travel",
-      "Wildlife",
-      "Airbnb",
-      "sustainable-travel",
-      "wildlife-and-nature",
-      "unique-stays"
-    ],
+    "tags": ["Sustainable Travel", "Wildlife", "Airbnb"],
     "slug": "airbnb-introduces-animal-experiences",
-    "categories": [
-      "explore",
-      "wildlife-and-nature",
-      "sustainable-travel",
-      "unique-stays"
-    ],
+    "categories": ["explore"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/airbnb-introduces-animal-experiences",
     "published_at": "2019-10-04T20:45:05Z",
-    "related_place_names": ["Braşov", "Utah", "Loch Lomond", "Cape Town"],
+    "places": ["Braşov", "Utah", "Loch Lomond", "Cape Town"],
     "related_place_slugs": [
       "romania/transylvania/brasov",
       "usa/southwest/utah",
@@ -273,31 +253,31 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/spain-women-only-hotel-som-dona",
     "published_at": "2019-10-02T15:34:26Z",
-    "related_place_names": ["Spain"],
+    "places": ["Spain"],
     "related_place_slugs": ["spain"]
   },
   {
     "title": "Eurostar is connecting more European cities by high-speed rail",
     "excerpt": "Two of Europe's biggest rail operators are merging to create a combined high-speed network that serves five countries.",
-    "tags": ["Green Travel", "Trains", "sustainable-travel", "train-travel"],
+    "tags": ["Green Travel", "Trains"],
     "slug": "eurostar-links-more-european-cities-by-rail-in-thalys-merger",
-    "categories": ["explore", "sustainable-travel", "train-travel"],
+    "categories": ["explore"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/eurostar-links-more-european-cities-by-rail-in-thalys-merger",
     "published_at": "2022-04-28T13:15:55Z",
-    "related_place_names": ["Europe"],
+    "places": ["Europe"],
     "related_place_slugs": ["europe"]
   },
   {
     "title": "Get paid to travel the world next year to yachting and skiing festivals",
     "excerpt": "Two jobs are on offer that will see creatives travelling the world in 2020 and getting paid for it.",
-    "tags": ["Dream Jobs", "digital-nomad"],
+    "tags": ["Dream Jobs"],
     "slug": "get-paid-to-travel-the-world",
-    "categories": ["explore", "digital-nomad"],
+    "categories": ["explore"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/get-paid-to-travel-the-world",
     "published_at": "2019-10-03T15:17:20Z",
-    "related_place_names": ["London"],
+    "places": ["London"],
     "related_place_slugs": ["england/london"]
   },
   {
@@ -309,7 +289,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/croydon-banksy",
     "published_at": "2019-10-03T16:38:41Z",
-    "related_place_names": ["London", "The United Kingdom"],
+    "places": ["London", "The United Kingdom"],
     "related_place_slugs": ["england/london", "the-united-kingdom"]
   },
   {
@@ -321,7 +301,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/shiba-inu-sweet-potato-stand",
     "published_at": "2019-10-04T20:48:08Z",
-    "related_place_names": ["Hokkaidō", "Japan", "Sapporo"],
+    "places": ["Hokkaidō", "Japan", "Sapporo"],
     "related_place_slugs": ["japan/hokkaido", "japan", "japan/hokkaido/sapporo"]
   },
   {
@@ -333,7 +313,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/artechouse-chelsea-market-new-york",
     "published_at": "2019-10-04T16:31:32Z",
-    "related_place_names": ["New York City"],
+    "places": ["New York City"],
     "related_place_slugs": ["usa/new-york-city"]
   },
   {
@@ -345,19 +325,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/sistine-chapel-private-tour",
     "published_at": "2019-10-03T10:38:54Z",
-    "related_place_names": ["Rome"],
+    "places": ["Rome"],
     "related_place_slugs": ["italy/rome"]
   },
   {
     "title": "Dutch organisation now one step closer to ridding the world’s oceans of plastic",
     "excerpt": "It’s no secret that the world’s oceans are filled with plastics – it’s one of the biggest environmental disasters facing humanity today. According to non…",
-    "tags": ["Green Travel", "sustainable-travel", "wildlife-and-nature"],
+    "tags": ["Green Travel"],
     "slug": "ocean-clean-up",
-    "categories": ["wildlife-and-nature", "sustainable-travel"],
+    "categories": [],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/ocean-clean-up",
     "published_at": "2019-10-03T12:16:55Z",
-    "related_place_names": ["California", "Hawaii"],
+    "places": ["California", "Hawaii"],
     "related_place_slugs": ["usa/california", "usa/hawaii"]
   },
   {
@@ -369,19 +349,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/mirrored-pods-in-new-zealand",
     "published_at": "2019-10-03T16:54:50Z",
-    "related_place_names": ["New Zealand"],
+    "places": ["New Zealand"],
     "related_place_slugs": ["new-zealand"]
   },
   {
     "title": "Indonesia proposes membership fee to visit Komodo Island",
     "excerpt": "Indonesia has cancelled plans to close its popular Komodo Island to tourists but authorities have announced a new annual membership fee to limit the…",
-    "tags": ["Wildlife", "wildlife-and-nature"],
+    "tags": ["Wildlife"],
     "slug": "komodo-island-membership-fee",
-    "categories": ["wildlife-and-nature"],
+    "categories": [],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/komodo-island-membership-fee",
     "published_at": "2019-10-03T11:16:04Z",
-    "related_place_names": ["Komodo & Rinca Islands"],
+    "places": ["Komodo & Rinca Islands"],
     "related_place_slugs": ["indonesia/komodo-rinca-islands"]
   },
   {
@@ -393,7 +373,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/unique-distilleries-around-the-world",
     "published_at": "2020-07-03T03:29:46Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -425,7 +405,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/cape-town-waterfront",
     "published_at": "2019-10-07T13:11:48Z",
-    "related_place_names": ["Cape Town"],
+    "places": ["Cape Town"],
     "related_place_slugs": ["south-africa/cape-town"]
   },
   {
@@ -437,25 +417,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/london-night-time-enterprise-project",
     "published_at": "2019-10-03T15:07:42Z",
-    "related_place_names": ["London"],
+    "places": ["London"],
     "related_place_slugs": ["england/london"]
   },
   {
     "title": "The opening of the biggest Legoland in the world has been pushed back to 2021",
     "excerpt": "Initially scheduled to open this Fourth of July, just in time for the fireworks, the opening of Legoland New York Resort has now been postponed to 2021 in light of the pandemic. ",
-    "tags": [
-      "covid19",
-      "Family Travel",
-      "Kids",
-      "Attractions",
-      "family-travel"
-    ],
+    "tags": ["covid19", "Family Travel", "Kids", "Attractions"],
     "slug": "new-york-legoland-opening-date",
-    "categories": ["family-holidays", "family-travel"],
+    "categories": ["family-holidays"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/new-york-legoland-opening-date",
     "published_at": "2020-04-02T16:17:10Z",
-    "related_place_names": ["New York"],
+    "places": ["New York"],
     "related_place_slugs": ["usa/new-york-state"]
   },
   {
@@ -467,7 +441,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/britain-scenic-mountain-bike-routes",
     "published_at": "2019-10-07T13:21:02Z",
-    "related_place_names": ["Great Britain"],
+    "places": ["Great Britain"],
     "related_place_slugs": ["great-britain"]
   },
   {
@@ -486,11 +460,7 @@
       "Attractions",
       "history",
       "food",
-      "sustainable-travel",
-      "wildlife-and-nature",
       "hiking",
-      "national-parks",
-      "health-and-wellness",
       "art",
       "beaches"
     ],
@@ -500,20 +470,16 @@
       "art-and-culture",
       "beaches-coasts-and-islands",
       "food-and-drink",
-      "wildlife-and-nature",
       "history",
       "food",
-      "sustainable-travel",
       "hiking",
-      "national-parks",
-      "health-and-wellness",
       "art",
       "beaches"
     ],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/maui-sites-without-tourists",
     "published_at": "2019-10-03T20:49:55Z",
-    "related_place_names": ["Maui", "Hawaii", "Haleakalā National Park"],
+    "places": ["Maui", "Hawaii", "Haleakalā National Park"],
     "related_place_slugs": [
       "usa/hawaii/maui",
       "usa/hawaii",
@@ -523,13 +489,13 @@
   {
     "title": "Discover Ibiza with this zero-emissions boating experience",
     "excerpt": "Solar-powered catamaran experience, La Bella Verde, has added two new green boats to its existing eco-friendly fleet that are powered by wind and solar energy. ",
-    "tags": ["Green Travel", "sustainable-travel"],
+    "tags": ["Green Travel"],
     "slug": "ibiza-zero-emission-boating-experience",
-    "categories": ["sustainable-travel"],
+    "categories": [],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/ibiza-zero-emission-boating-experience",
     "published_at": "2019-10-04T13:18:36Z",
-    "related_place_names": ["Ibiza"],
+    "places": ["Ibiza"],
     "related_place_slugs": ["spain/ibiza"]
   },
   {
@@ -541,61 +507,43 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/explore-vatican-city-under-the-stars",
     "published_at": "2019-10-04T11:48:40Z",
-    "related_place_names": ["Vatican City, Borgo & Prati"],
+    "places": ["Vatican City, Borgo & Prati"],
     "related_place_slugs": ["vatican-city"]
   },
   {
     "title": "Markets, galleries and late-night spectacles: the best free things to do in Yangon",
     "excerpt": "From lakeside rambling to touring a disused glass factory, here are seven superb things to do in Yangon that are completely free of charge.",
-    "tags": ["Culture", "Budget", "art", "history", "budget-travel"],
+    "tags": ["Culture", "Budget", "art", "history"],
     "slug": "free-things-to-do-yangon",
-    "categories": [
-      "art-and-culture",
-      "travel-on-a-budget",
-      "art",
-      "history",
-      "budget-travel"
-    ],
+    "categories": ["art-and-culture", "travel-on-a-budget", "art", "history"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/free-things-to-do-yangon",
     "published_at": "2022-02-11T12:50:34Z",
-    "related_place_names": ["Yangon"],
+    "places": ["Yangon"],
     "related_place_slugs": ["myanmar-burma/yangon-rangoon"]
   },
   {
     "title": "San Francisco's busiest street is set to undergo a radical transformation",
     "excerpt": "One of San Francisco's busiest streets is walking into the future under a new mobility plan that will make the city safer, cleaner and greener.",
-    "tags": [
-      "Green Travel",
-      "Public Transport",
-      "Sustainable Travel",
-      "sustainable-travel",
-      "public-transport"
-    ],
+    "tags": ["Green Travel", "Public Transport", "Sustainable Travel"],
     "slug": "market-street-car-free",
-    "categories": ["explore", "sustainable-travel", "public-transport"],
+    "categories": ["explore"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/market-street-car-free",
     "published_at": "2019-10-23T08:59:16Z",
-    "related_place_names": ["San Francisco"],
+    "places": ["San Francisco"],
     "related_place_slugs": ["usa/san-francisco"]
   },
   {
     "title": "Traditional Christmas desserts from around the world (and the best places to try them)",
     "excerpt": "The Christmas season is all about celebrating the joys of life, and what's more joyful than dessert? Our world faves. ",
-    "tags": [
-      "Food",
-      "Christmas",
-      "Sweets & Desserts",
-      "festivals-and-events",
-      "food"
-    ],
+    "tags": ["Food", "Christmas", "Sweets & Desserts", "food"],
     "slug": "traditional-christmas-desserts-from-around-the-world",
-    "categories": ["food-and-drink", "festivals-and-events", "food"],
+    "categories": ["food-and-drink", "food"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/traditional-christmas-desserts-from-around-the-world",
     "published_at": "2021-12-09T10:33:08Z",
-    "related_place_names": ["WORLD"],
+    "places": ["WORLD"],
     "related_place_slugs": ["world"]
   },
   {
@@ -617,13 +565,9 @@
       "Wildlife",
       "history",
       "food",
-      "sustainable-travel",
       "sports",
       "cycling",
-      "wildlife-and-nature",
       "hiking",
-      "national-parks",
-      "tips-and-advice",
       "art",
       "shopping"
     ],
@@ -635,26 +579,17 @@
       "food-and-drink",
       "shopping",
       "sports-fitness",
-      "wildlife-and-nature",
       "history",
       "food",
-      "sustainable-travel",
       "sports",
       "cycling",
       "hiking",
-      "national-parks",
-      "tips-and-advice",
       "art"
     ],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/two-days-in-anchorage",
     "published_at": "2019-10-28T15:18:57Z",
-    "related_place_names": [
-      "Alaska",
-      "Anchorage",
-      "North America",
-      "Anchorage Region"
-    ],
+    "places": ["Alaska", "Anchorage", "North America", "Anchorage Region"],
     "related_place_slugs": [
       "usa/alaska",
       "usa/alaska/anchorage",
@@ -665,20 +600,13 @@
   {
     "title": "This Japanese airline is testing self-driving wheelchairs ",
     "excerpt": "In May, All Nippon Airways and Panasonic announced they’d be partnering to test a fleet of self-driving electric wheelchairs at Tokyo Narita International Airport, and now they’re taking those tests to the next level. \r\n\r\n",
-    "tags": [
-      "Accessible Travel",
-      "Airports",
-      "Airlines",
-      "Air Travel",
-      "accessible-travel",
-      "air-travel"
-    ],
+    "tags": ["Accessible Travel", "Airports", "Airlines", "Air Travel"],
     "slug": "self-driving-wheelchairs-tokyo-narita-ana",
-    "categories": ["accessible-travel", "travel-gear-and-tech", "air-travel"],
+    "categories": ["travel-gear-and-tech"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/self-driving-wheelchairs-tokyo-narita-ana",
     "published_at": "2019-10-24T11:06:35Z",
-    "related_place_names": ["Around Tokyo"],
+    "places": ["Around Tokyo"],
     "related_place_slugs": ["japan/around-tokyo"]
   },
   {
@@ -690,7 +618,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/2020-tour-de-france-route",
     "published_at": "2019-10-24T08:38:43Z",
-    "related_place_names": ["France"],
+    "places": ["France"],
     "related_place_slugs": ["france"]
   },
   {
@@ -702,31 +630,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/underwater-forest-ghana-notre-dame",
     "published_at": "2019-10-25T13:05:02Z",
-    "related_place_names": ["Paris", "Ghana"],
+    "places": ["Paris", "Ghana"],
     "related_place_slugs": ["france/paris", "ghana"]
   },
   {
     "title": "Get a taste of Tucson's Unesco-recognized food scene",
     "excerpt": "Recognized by Unesco as one of the world's most important food scenes, Tucson is an exceptional place for Mexican and Southwestern gastronomy. ",
-    "tags": [
-      "Culture",
-      "Food",
-      "Vegetarian & Vegan",
-      "history",
-      "food",
-      "vegetarian-and-vegan"
-    ],
+    "tags": ["Culture", "Food", "Vegetarian & Vegan", "history", "food"],
     "slug": "where-to-eat-in-tucson-arizona",
-    "categories": ["food-and-drink", "history", "food", "vegetarian-and-vegan"],
+    "categories": ["food-and-drink", "history", "food"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/where-to-eat-in-tucson-arizona",
     "published_at": "2019-11-06T18:51:17Z",
-    "related_place_names": [
-      "Tucson",
-      "Arizona",
-      "Western USA",
-      "The Southwest"
-    ],
+    "places": ["Tucson", "Arizona", "Western USA", "The Southwest"],
     "related_place_slugs": [
       "usa/southwest/tucson",
       "usa/southwest/arizona",
@@ -743,31 +659,31 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/rome-food-critics-favourite-restaurants",
     "published_at": "2019-10-25T09:18:31Z",
-    "related_place_names": ["Rome"],
+    "places": ["Rome"],
     "related_place_slugs": ["italy/rome"]
   },
   {
     "title": "Why are whales and sharks disappearing from Cape Town's coast?",
     "excerpt": "First it was the great white sharks who mysteriously vanished from the waters of Cape Town but now the coast is short of whales too, as marine biologists…",
-    "tags": ["Wildlife", "wildlife-and-nature"],
+    "tags": ["Wildlife"],
     "slug": "sharks-whales-disappearing-cape-town",
-    "categories": ["wildlife-and-nature"],
+    "categories": [],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/sharks-whales-disappearing-cape-town",
     "published_at": "2019-10-24T09:51:52Z",
-    "related_place_names": ["Cape Town"],
+    "places": ["Cape Town"],
     "related_place_slugs": ["south-africa/cape-town"]
   },
   {
     "title": "Air New Zealand is ending its iconic Los Angeles to London route",
     "excerpt": "Almost 40 years after Air Zealand began its direct daily route from Los Angeles to London, the airline has decided to withdraw the service from October 2020.",
-    "tags": ["Airlines", "air-travel"],
+    "tags": ["Airlines"],
     "slug": "air-new-zealand-ending-london-la",
-    "categories": ["explore", "air-travel"],
+    "categories": ["explore"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/air-new-zealand-ending-london-la",
     "published_at": "2019-10-24T08:47:09Z",
-    "related_place_names": ["London"],
+    "places": ["London"],
     "related_place_slugs": ["england/london"]
   },
   {
@@ -779,19 +695,19 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/where-to-propose",
     "published_at": "2022-01-17T12:40:00Z",
-    "related_place_names": ["WORLD"],
+    "places": ["WORLD"],
     "related_place_slugs": ["world"]
   },
   {
     "title": "The best cities in Europe to celebrate New Year’s Eve ",
     "excerpt": "Struggling where to choose to spend New Year's? Wrap up warm and ring in the New Year at one of these European cities with the ‘wow’ factor.",
-    "tags": ["Festival", "Nightlife", "festivals-and-events", "nightclubs"],
+    "tags": ["Festival", "Nightlife", "nightclubs"],
     "slug": "best-city-for-new-years-europe",
-    "categories": ["festivals", "festivals-and-events", "nightclubs"],
+    "categories": ["festivals", "nightclubs"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/best-city-for-new-years-europe",
     "published_at": "2019-10-24T12:54:33Z",
-    "related_place_names": [
+    "places": [
       "Europe",
       "Berlin",
       "Lisbon",
@@ -817,49 +733,42 @@
   {
     "title": "The world's largest urban farm has opened on a Paris rooftop",
     "excerpt": "With a rooftop view over one of the most densely-populated cities in Europe, it's an unlikely place to provide fresh food and green spaces but the Port de…",
-    "tags": ["Food", "Sustainable Travel", "food", "sustainable-travel"],
+    "tags": ["Food", "Sustainable Travel", "food"],
     "slug": "agripolis-urban-farm-paris",
-    "categories": ["food-and-drink", "sustainable-travel", "food"],
+    "categories": ["food-and-drink", "food"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/agripolis-urban-farm-paris",
     "published_at": "2020-08-04T11:21:33Z",
-    "related_place_names": ["Paris"],
+    "places": ["Paris"],
     "related_place_slugs": ["france/paris"]
   },
   {
     "title": "Playa del Carmen's best places to eat in 2022: local favorites, top tacos, and unique dining experiences",
     "excerpt": "Playa del Carmen doesn’t mess around when it comes to good eats. From the best tacos to finding a traditional Mexican restaurant, here are some highlights.",
-    "tags": ["Food", "Beer", "food", "restaurant", "vegetarian-and-vegan"],
+    "tags": ["Food", "Beer", "food", "restaurant"],
     "slug": "where-to-eat-in-playa-del-carmen",
     "categories": [
       "beaches-coasts-and-islands",
       "food-and-drink",
       "food",
-      "restaurant",
-      "vegetarian-and-vegan"
+      "restaurant"
     ],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/where-to-eat-in-playa-del-carmen",
     "published_at": "2022-04-11T15:17:37Z",
-    "related_place_names": ["Playa del Carmen"],
+    "places": ["Playa del Carmen"],
     "related_place_slugs": ["mexico/yucatan-peninsula/playa-del-carmen"]
   },
   {
     "title": "Cornwall's Eden Project to be powered by the 'hot rocks' beneath it",
     "excerpt": "A plan to heat the giant biomes of the Eden Project by tapping into the “hot rocks” beneath the Cornish attraction has received a boost.",
-    "tags": [
-      "Green Travel",
-      "Attractions",
-      "Architecture",
-      "sustainable-travel",
-      "architecture"
-    ],
+    "tags": ["Green Travel", "Attractions", "Architecture", "architecture"],
     "slug": "eden-project-drilling-geothermal-heat",
-    "categories": ["sustainable-travel", "architecture"],
+    "categories": ["architecture"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/eden-project-drilling-geothermal-heat",
     "published_at": "2019-10-18T10:33:36Z",
-    "related_place_names": ["Cornwall"],
+    "places": ["Cornwall"],
     "related_place_slugs": ["england/southwest-england/cornwall"]
   },
   {
@@ -871,7 +780,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/iceland-greenland-cruise-alex-pancoe",
     "published_at": "2019-10-18T16:12:17Z",
-    "related_place_names": ["Greenland", "Iceland"],
+    "places": ["Greenland", "Iceland"],
     "related_place_slugs": ["greenland", "iceland"]
   },
   {
@@ -883,24 +792,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/champagne-concierge-france",
     "published_at": "2019-10-18T12:54:46Z",
-    "related_place_names": ["Champagne"],
+    "places": ["Champagne"],
     "related_place_slugs": ["france/champagne"]
   },
   {
     "title": "The best glamping getaways in North America for under $150",
     "excerpt": "Fresh off the back of researching their new guide to glamping, Comfortably Wild, Mike and Anne Howard have some things to say about the outdoorsy travel trend. Here are their favorite glamping spots in North America under $150.",
-    "tags": ["luxury", "wildlife-and-nature"],
+    "tags": ["luxury"],
     "slug": "best-budget-glamping-in-north-america",
-    "categories": [
-      "adventure-travel",
-      "luxury-travel",
-      "wildlife-and-nature",
-      "luxury"
-    ],
+    "categories": ["adventure-travel", "luxury-travel", "luxury"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/best-budget-glamping-in-north-america",
     "published_at": "2020-06-23T13:14:00Z",
-    "related_place_names": ["USA", "Canada"],
+    "places": ["USA", "Canada"],
     "related_place_slugs": ["usa", "canada"]
   },
   {
@@ -912,19 +816,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/all-nippon-airways-newme-robot",
     "published_at": "2019-10-18T11:33:30Z",
-    "related_place_names": ["Japan"],
+    "places": ["Japan"],
     "related_place_slugs": ["japan"]
   },
   {
     "title": "Are you brave enough to spend Halloween in a haunted tower?",
     "excerpt": "If you really want to push your courage to its limit this Halloween, you can spend the spookiest night of the year in a real haunted castle in Italy.",
-    "tags": ["Halloween", "Quirky", "festivals-and-events"],
+    "tags": ["Halloween", "Quirky"],
     "slug": "halloween-tower-airbnb",
-    "categories": ["explore", "festivals-and-events"],
+    "categories": ["explore"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/halloween-tower-airbnb",
     "published_at": "2019-10-21T16:09:44Z",
-    "related_place_names": ["Lake Maggiore"],
+    "places": ["Lake Maggiore"],
     "related_place_slugs": ["italy/lombardy-and-the-lakes/lago-maggiore"]
   },
   {
@@ -936,70 +840,50 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/stephen-king-house-writer-retreat",
     "published_at": "2019-10-21T14:12:01Z",
-    "related_place_names": ["Bangor", "Maine"],
+    "places": ["Bangor", "Maine"],
     "related_place_slugs": ["usa/new-england/bangor", "usa/new-england/maine"]
   },
   {
     "title": "See the art and architecture of Europe as the creators originally intended",
     "excerpt": "European vacations can seem like an endless list of to-see’s and to-do’s. Eiffel Tower? Check. Louvre? Check. Arc de Triomphe? Check. But no matter if it…",
-    "tags": [
-      "Culture",
-      "Luxury",
-      "Itineraries",
-      "history",
-      "luxury",
-      "tips-and-advice",
-      "art"
-    ],
+    "tags": ["Culture", "Luxury", "Itineraries", "history", "luxury", "art"],
     "slug": "luxury-european-curated-tour",
     "categories": [
       "art-and-culture",
       "luxury-travel",
       "history",
       "luxury",
-      "tips-and-advice",
+
       "art"
     ],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/luxury-european-curated-tour",
     "published_at": "2019-10-18T17:11:01Z",
-    "related_place_names": ["Europe"],
+    "places": ["Europe"],
     "related_place_slugs": ["europe"]
   },
   {
     "title": "See the \"blob” in Paris - a mysterious organism that has 720 sexes ",
     "excerpt": "A mysterious organism dubbed the “blob” has made its debut at the Paris Zoological Park.",
-    "tags": ["Quirky", "Wildlife", "wildlife-and-nature"],
+    "tags": ["Quirky", "Wildlife"],
     "slug": "blob-paris-720-sexes",
-    "categories": ["wildlife-and-nature"],
+    "categories": [],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/blob-paris-720-sexes",
     "published_at": "2019-10-18T16:19:05Z",
-    "related_place_names": ["Paris"],
+    "places": ["Paris"],
     "related_place_slugs": ["france/paris"]
   },
   {
     "title": "Drive a jalopy to Mongolia and help save the world",
     "excerpt": "Every year, dozens of travellers jump in worn-out junker cars to drive across Europe to a remote part of Siberia in the name of adventure and helping to stop climate change. Here's to the Mongol Rally, one of the most unusual races on earth.",
-    "tags": [
-      "Extreme Sports",
-      "Quirky",
-      "Sustainable Travel",
-      "sports",
-      "sustainable-travel",
-      "road-trips"
-    ],
+    "tags": ["Extreme Sports", "Quirky", "Sustainable Travel", "sports"],
     "slug": "mongol-rally",
-    "categories": [
-      "adventure-travel",
-      "road-trips",
-      "sports",
-      "sustainable-travel"
-    ],
+    "categories": ["adventure-travel", "sports"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/mongol-rally",
     "published_at": "2019-10-21T17:51:48Z",
-    "related_place_names": [
+    "places": [
       "Mongolia",
       "Ulaanbaatar",
       "Odesa",
@@ -1017,13 +901,13 @@
   {
     "title": "The best tech gifts for travelers",
     "excerpt": "With an infinite array of gadgets and gizmos cycling through the market, there’s never been a better time to shop for the tech-minded traveler.",
-    "tags": ["Holidays", "Christmas", "Technology", "festivals-and-events"],
+    "tags": ["Holidays", "Christmas", "Technology"],
     "slug": "tech-gifts-for-travelers",
-    "categories": ["travel-gear-and-tech", "festivals-and-events"],
+    "categories": ["travel-gear-and-tech"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/tech-gifts-for-travelers",
     "published_at": "2019-10-18T20:58:36Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -1035,7 +919,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/most-expensive-restaurants-in-the-world",
     "published_at": "2019-10-21T09:25:37Z",
-    "related_place_names": [
+    "places": [
       "WORLD",
       "Ibiza",
       "New York City",
@@ -1059,19 +943,13 @@
   {
     "title": "Boeing is investing US $20 million in Virgin Galactic's space-travel program",
     "excerpt": "This summer brought new developments in the realm of commercial space travel, and now the dream is drawing closer to reality, thanks to a recently revealed partnership between Boeing and Virgin Galactic. ",
-    "tags": [
-      "Travel Industry News",
-      "Space",
-      "Air Travel",
-      "astrotourism",
-      "air-travel"
-    ],
+    "tags": ["Travel Industry News", "Space", "Air Travel", "astrotourism"],
     "slug": "boeing-investing-virgin-galactic",
-    "categories": ["adventure-travel", "explore", "astrotourism", "air-travel"],
+    "categories": ["adventure-travel", "explore", "astrotourism"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/boeing-investing-virgin-galactic",
     "published_at": "2019-10-22T15:08:34Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -1083,19 +961,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/broendby-haveby-denmark-from-above",
     "published_at": "2019-10-22T16:27:47Z",
-    "related_place_names": ["Denmark"],
+    "places": ["Denmark"],
     "related_place_slugs": ["denmark"]
   },
   {
     "title": "Sydney to be directly connected with NYC and London on these non-stop flights",
     "excerpt": "Qantas is moving forward with plans to launch more direct ultralong-haul flights from the United States and the United Kingdom to Australia. ",
-    "tags": ["Travel Industry News", "Airlines", "air-travel"],
+    "tags": ["Travel Industry News", "Airlines"],
     "slug": "qantas-launching-direct-flights-from-sydney-to-nyc-and-london",
-    "categories": ["explore", "air-travel"],
+    "categories": ["explore"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/qantas-launching-direct-flights-from-sydney-to-nyc-and-london",
     "published_at": "2022-05-03T13:20:00Z",
-    "related_place_names": ["New York City", "Sydney"],
+    "places": ["New York City", "Sydney"],
     "related_place_slugs": ["usa/new-york-city", "australia/sydney"]
   },
   {
@@ -1107,7 +985,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/photos-famous-czech-site-permission-in-advance",
     "published_at": "2019-10-21T15:01:41Z",
-    "related_place_names": ["Kutná Hora", "Czech Republic"],
+    "places": ["Kutná Hora", "Czech Republic"],
     "related_place_slugs": ["czech-republic/kutna-hora", "czech-republic"]
   },
   {
@@ -1119,25 +997,19 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/edinburgh-best-restaurants",
     "published_at": "2019-10-22T10:21:58Z",
-    "related_place_names": ["Edinburgh"],
+    "places": ["Edinburgh"],
     "related_place_slugs": ["scotland/edinburgh"]
   },
   {
     "title": "A new Finnish resort will cut down your bill based on your eco-friendly activities",
     "excerpt": "Arctic Blue Resort is an eco-hotel that will open in 2022 in Kontiolahti, and it will reduce guests' bills based on their eco-friendly activities.",
-    "tags": [
-      "Green Travel",
-      "Sustainable Travel",
-      "Accommodation",
-      "sustainable-travel",
-      "hotels"
-    ],
+    "tags": ["Green Travel", "Sustainable Travel", "Accommodation", "hotels"],
     "slug": "artic-blue-resort-eco-friendly",
-    "categories": ["explore", "sustainable-travel", "hotels"],
+    "categories": ["explore", "hotels"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/artic-blue-resort-eco-friendly",
     "published_at": "2019-10-22T07:28:24Z",
-    "related_place_names": ["Finland"],
+    "places": ["Finland"],
     "related_place_slugs": ["finland"]
   },
   {
@@ -1149,7 +1021,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/alice-in-wonderland-victoria-and-albert-museum",
     "published_at": "2019-12-03T23:05:36Z",
-    "related_place_names": ["London"],
+    "places": ["London"],
     "related_place_slugs": ["england/london"]
   },
   {
@@ -1161,31 +1033,31 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/marie-antoinette-pop-culture-icon",
     "published_at": "2019-10-22T15:26:50Z",
-    "related_place_names": ["Paris", "France"],
+    "places": ["Paris", "France"],
     "related_place_slugs": ["france/paris", "france"]
   },
   {
     "title": "Would you pay more for a flight to help the environment? ",
     "excerpt": "Travelers have been complaining for years about being nickle-and-dimed by the airline industry, but it turns out there’s one thing they don’t mind paying a bit more for. \r\n\r\n",
-    "tags": ["Green Travel", "Air Travel", "sustainable-travel", "air-travel"],
+    "tags": ["Green Travel", "Air Travel"],
     "slug": "carbon-pricing-study",
-    "categories": ["sustainable-travel", "air-travel"],
+    "categories": [],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/carbon-pricing-study",
     "published_at": "2019-10-23T14:27:36Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
     "title": "The best travel gifts for city explorers in 2019",
     "excerpt": "Bound for the bright lights of the big city? From upgraded basics and wardrobe staples to trendy concoctions and high-end accoutrements, here are 9 items for the urban adventurer on your list, all priced at $300 or less. ",
-    "tags": ["Holidays", "Christmas", "festivals-and-events"],
+    "tags": ["Holidays", "Christmas"],
     "slug": "gifts-for-city-travelers",
-    "categories": ["travel-gear-and-tech", "festivals-and-events"],
+    "categories": ["travel-gear-and-tech"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/gifts-for-city-travelers",
     "published_at": "2019-10-24T15:28:16Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -1197,37 +1069,31 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/william-kate-pakistan-2019",
     "published_at": "2019-10-23T07:31:18Z",
-    "related_place_names": ["Pakistan"],
+    "places": ["Pakistan"],
     "related_place_slugs": ["pakistan"]
   },
   {
     "title": "Someone will get to spend two nights in Barbie’s Malibu Dreamhouse with their friends",
     "excerpt": "One group of up to four people will be able to stay at Barbie's lifesize Malibu Dreamhouse for two nights in late October.",
-    "tags": ["Accommodation", "Celebrity", "Airbnb", "hotels", "unique-stays"],
+    "tags": ["Accommodation", "Celebrity", "Airbnb", "hotels"],
     "slug": "airbnb-barbies-dreamhouse",
-    "categories": ["explore", "hotels", "unique-stays"],
+    "categories": ["explore", "hotels"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/airbnb-barbies-dreamhouse",
     "published_at": "2019-10-22T09:28:41Z",
-    "related_place_names": ["Malibu & Pacific Palisades"],
+    "places": ["Malibu & Pacific Palisades"],
     "related_place_slugs": ["usa/los-angeles/malibu"]
   },
   {
     "title": "A first look at Winnebago’s brand new pop-top family camper",
     "excerpt": "The Winnebago Solis features a dynamic design that can be adjusted to any family's needs.",
-    "tags": [
-      "Outdoors",
-      "Camping",
-      "wildlife-and-nature",
-      "camping",
-      "road-trips"
-    ],
+    "tags": ["Outdoors", "Camping", "camping"],
     "slug": "winnebago-solis-pop-top-camper",
-    "categories": ["road-trips", "wildlife-and-nature", "camping"],
+    "categories": ["camping"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/winnebago-solis-pop-top-camper",
     "published_at": "2019-10-24T16:01:47Z",
-    "related_place_names": ["North America"],
+    "places": ["North America"],
     "related_place_slugs": ["north-america"]
   },
   {
@@ -1239,7 +1105,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/uk-flights-sharm-el-sheikh",
     "published_at": "2019-10-22T13:50:36Z",
-    "related_place_names": ["Sharm El Sheikh", "Egypt"],
+    "places": ["Sharm El Sheikh", "Egypt"],
     "related_place_slugs": [
       "egypt/sinai/sharm-el-sheikh-and-naama-bay",
       "egypt"
@@ -1254,7 +1120,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/joker-steps-new-york-bronx",
     "published_at": "2019-10-23T14:50:57Z",
-    "related_place_names": ["The Bronx"],
+    "places": ["The Bronx"],
     "related_place_slugs": ["usa/new-york-city/the-bronx"]
   },
   {
@@ -1266,7 +1132,7 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/drinks-guide-russia",
     "published_at": "2019-10-28T11:51:46Z",
-    "related_place_names": ["Russia", "Moscow", "Suzdal", "St Petersburg"],
+    "places": ["Russia", "Moscow", "Suzdal", "St Petersburg"],
     "related_place_slugs": [
       "russia",
       "russia/moscow",
@@ -1283,53 +1149,31 @@
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/cuban-coffee-in-miami",
     "published_at": "2021-09-30T14:17:54Z",
-    "related_place_names": ["Miami"],
+    "places": ["Miami"],
     "related_place_slugs": ["usa/miami"]
   },
   {
     "title": "Everything you've ever wanted to know about airplane movies",
     "excerpt": "From blockbusters to Bollywood, here's how that movie makes it onto your plane.",
-    "tags": [
-      "Film",
-      "Accessible Travel",
-      "Air Travel",
-      "film",
-      "accessible-travel",
-      "air-travel"
-    ],
+    "tags": ["Film", "Accessible Travel", "Air Travel", "film"],
     "slug": "movies-on-an-airplane-interesting-facts",
-    "categories": ["explore", "film", "accessible-travel", "air-travel"],
+    "categories": ["explore", "film"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/movies-on-an-airplane-interesting-facts",
     "published_at": "2019-10-25T13:19:42Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
     "title": "These new rules hope to reduce crowds on the Pacific Crest Trail ",
     "excerpt": "If you're planning to hike the Pacific Coast Trail next year, you'll need to make sure you're aware of the new permit rules ahead of your adventure.",
-    "tags": [
-      "Outdoors",
-      "Sustainable Travel",
-      "wildlife-and-nature",
-      "sustainable-travel",
-      "hiking"
-    ],
+    "tags": ["Outdoors", "Sustainable Travel", "hiking"],
     "slug": "pacific-crest-trail-new-permit-rules",
-    "categories": [
-      "adventure-travel",
-      "backpacking",
-      "wildlife-and-nature",
-      "sustainable-travel",
-      "hiking"
-    ],
+    "categories": ["adventure-travel", "backpacking", "hiking"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/pacific-crest-trail-new-permit-rules",
     "published_at": "2019-10-25T10:23:31Z",
-    "related_place_names": [
-      "USA",
-      "Northwestern Washington & the San Juan Islands"
-    ],
+    "places": ["USA", "Northwestern Washington & the San Juan Islands"],
     "related_place_slugs": [
       "usa",
       "usa/washington/northwestern-washington-the-san-juan-islands"
@@ -1338,19 +1182,13 @@
   {
     "title": "8 Christmas traditions from around the world",
     "excerpt": "From Christmas trees to Advent calendars, we track some favorite festive Christmas traditions back to their roots.",
-    "tags": [
-      "Culture",
-      "Festival",
-      "Christmas",
-      "festivals-and-events",
-      "history"
-    ],
+    "tags": ["Culture", "Festival", "Christmas", "history"],
     "slug": "christmas-traditions-from-around-the-world",
-    "categories": ["festivals", "festivals-and-events", "history"],
+    "categories": ["festivals", "history"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/christmas-traditions-from-around-the-world",
     "published_at": "2021-12-07T12:54:00Z",
-    "related_place_names": ["WORLD"],
+    "places": ["WORLD"],
     "related_place_slugs": ["world"]
   },
   {
@@ -1362,7 +1200,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/korean-food-hall-midtown-new-york-city",
     "published_at": "2019-12-01T12:10:01Z",
-    "related_place_names": ["New York City"],
+    "places": ["New York City"],
     "related_place_slugs": ["usa/new-york-city"]
   },
   {
@@ -1374,7 +1212,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/upgradus-hotel-app",
     "published_at": "2019-10-25T11:10:08Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
@@ -1386,7 +1224,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/glass-of-thrones-trail-belfast",
     "published_at": "2019-10-25T13:58:38Z",
-    "related_place_names": ["Northern Ireland"],
+    "places": ["Northern Ireland"],
     "related_place_slugs": ["ireland/northern-ireland"]
   },
   {
@@ -1398,43 +1236,31 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/liverpool-fans-ghent-genk",
     "published_at": "2019-10-25T11:25:33Z",
-    "related_place_names": ["Ghent"],
+    "places": ["Ghent"],
     "related_place_slugs": ["belgium/flanders/ghent"]
   },
   {
     "title": "You can now bike your way through the Alpine valleys of northern Italy",
     "excerpt": "If you love biking and cyclo tourism, then the new route that was just opened in northern Italy is the perfect destination for you. ",
-    "tags": [
-      "Green Travel",
-      "Outdoors",
-      "Itineraries",
-      "Sustainable Travel",
-      "sustainable-travel",
-      "wildlife-and-nature",
-      "tips-and-advice"
-    ],
+    "tags": ["Green Travel", "Outdoors", "Itineraries", "Sustainable Travel"],
     "slug": "greenway-bike-route-italy",
-    "categories": [
-      "sustainable-travel",
-      "wildlife-and-nature",
-      "tips-and-advice"
-    ],
+    "categories": [],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/greenway-bike-route-italy",
     "published_at": "2019-10-25T10:43:31Z",
-    "related_place_names": ["Brescia"],
+    "places": ["Brescia"],
     "related_place_slugs": ["italy/lombardy-and-the-lakes/brescia"]
   },
   {
     "title": "Travellers asked to avoid café where dogs are dyed to look like panda cubs",
     "excerpt": "Travellers have been asked to avoid visiting a newly-opened café in China where the star attraction is six chow chow dogs that have been dyed to look like panda cubs.",
-    "tags": ["Wildlife", "wildlife-and-nature"],
+    "tags": ["Wildlife"],
     "slug": "cafe-dogs-dyed-like-pandas",
-    "categories": ["explore", "wildlife-and-nature"],
+    "categories": ["explore"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/cafe-dogs-dyed-like-pandas",
     "published_at": "2019-10-25T15:46:28Z",
-    "related_place_names": ["Chengdu"],
+    "places": ["Chengdu"],
     "related_place_slugs": ["china/sichuan/chengdu"]
   },
   {
@@ -1446,7 +1272,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/yayoi-kusama-macys-thanksgiving-day-parade",
     "published_at": "2019-10-28T11:56:50Z",
-    "related_place_names": ["New York City"],
+    "places": ["New York City"],
     "related_place_slugs": ["usa/new-york-city"]
   },
   {
@@ -1458,24 +1284,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/climb-sydney-harbour-bridge-dine",
     "published_at": "2019-10-28T12:24:41Z",
-    "related_place_names": ["Sydney"],
+    "places": ["Sydney"],
     "related_place_slugs": ["australia/sydney"]
   },
   {
     "title": "7 rewilding projects you can visit in Europe",
     "excerpt": "Rewilding aims to give ecosystems space to restore naturally while supporting local economies. Explore the best here.",
-    "tags": [
-      "Sustainable Travel",
-      "Wildlife",
-      "wildlife-and-nature",
-      "sustainable-travel"
-    ],
+    "tags": ["Sustainable Travel", "Wildlife"],
     "slug": "rewilding-europe-top-projects",
-    "categories": ["sustainable-travel", "wildlife-and-nature"],
+    "categories": [],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/rewilding-europe-top-projects",
     "published_at": "2022-03-31T10:00:00Z",
-    "related_place_names": ["Europe"],
+    "places": ["Europe"],
     "related_place_slugs": ["europe"]
   },
   {
@@ -1487,19 +1308,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/americans-unused-vacation-time-2019",
     "published_at": "2019-10-29T11:38:51Z",
-    "related_place_names": null,
+    "places": null,
     "related_place_slugs": null
   },
   {
     "title": "How to have a sustainable visit to the Great Barrier Reef",
     "excerpt": "Australia's Great Barrier Reef is a 2300km-long ribbon of colour and life. Here's how to have a sustainable visit to the world's largest living organism.",
-    "tags": ["Sustainable Travel", "sustainable-travel"],
+    "tags": ["Sustainable Travel"],
     "slug": "sustainable-great-barrier-reef",
-    "categories": ["sustainable-travel"],
+    "categories": [],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/sustainable-great-barrier-reef",
     "published_at": "2020-01-28T09:20:32Z",
-    "related_place_names": [
+    "places": [
       "Great Barrier Reef",
       "Australia",
       "Queensland",
@@ -1515,21 +1336,13 @@
   {
     "title": "Why Germany is the best place to countdown to Christmas",
     "excerpt": "December in Germany means getting into the festive spirit with centuries-old traditions and a visit to a cosy Christmas market. ",
-    "tags": [
-      "Culture",
-      "Festival",
-      "Food",
-      "Christmas",
-      "history",
-      "festivals-and-events",
-      "food"
-    ],
+    "tags": ["Culture", "Festival", "Food", "Christmas", "history", "food"],
     "slug": "december-in-germany-christmas",
-    "categories": ["festivals", "history", "festivals-and-events", "food"],
+    "categories": ["festivals", "history", "food"],
     "type": "Feature",
     "url": "https://www.lonelyplanet.com/articles/december-in-germany-christmas",
     "published_at": "2019-10-31T11:15:32Z",
-    "related_place_names": ["Germany"],
+    "places": ["Germany"],
     "related_place_slugs": ["germany"]
   },
   {
@@ -1541,19 +1354,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/the-edge-hudson-yards",
     "published_at": "2020-03-10T02:00:12Z",
-    "related_place_names": ["New York City"],
+    "places": ["New York City"],
     "related_place_slugs": ["usa/new-york-city"]
   },
   {
     "title": "Fly like a Jedi in this Star Wars-themed plane",
     "excerpt": "United Airlines is preparing for the launch of Star Wars: The Rise of Skywalker with a special edition Star Wars-themed plane.",
-    "tags": ["Entertainment", "Film", "Airlines", "film", "air-travel"],
+    "tags": ["Entertainment", "Film", "Airlines", "film"],
     "slug": "united-airlines-star-wars-the-rise-of-skywalker",
-    "categories": ["explore", "film", "air-travel"],
+    "categories": ["explore", "film"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/united-airlines-star-wars-the-rise-of-skywalker",
     "published_at": "2019-10-29T15:08:41Z",
-    "related_place_names": ["USA"],
+    "places": ["USA"],
     "related_place_slugs": ["usa"]
   },
   {
@@ -1565,19 +1378,19 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/luxor-coffins-ancient-egypt",
     "published_at": "2019-10-28T13:42:51Z",
-    "related_place_names": ["Luxor"],
+    "places": ["Luxor"],
     "related_place_slugs": ["egypt/nile-valley/luxor"]
   },
   {
     "title": "The London Underground's logo is getting a new look",
     "excerpt": "The London Underground’s roundel has been an enduring symbol of the city since its introduction in 1908, but next month, it’ll be getting a temporary makeover.",
-    "tags": ["Trains", "Art", "train-travel", "art"],
+    "tags": ["Trains", "Art", "art"],
     "slug": "larry-achiampong-london-art-underground",
-    "categories": ["art-and-culture", "train-travel", "art"],
+    "categories": ["art-and-culture", "art"],
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/larry-achiampong-london-art-underground",
     "published_at": "2019-10-25T10:59:31Z",
-    "related_place_names": ["London"],
+    "places": ["London"],
     "related_place_slugs": ["england/london"]
   },
   {
@@ -1589,7 +1402,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/windsor-castle-inner-hall",
     "published_at": "2019-10-25T16:18:41Z",
-    "related_place_names": ["Windsor & Eton"],
+    "places": ["Windsor & Eton"],
     "related_place_slugs": ["england/southeast-england/windsor-and-eton"]
   },
   {
@@ -1608,7 +1421,7 @@
     "type": "Travel News",
     "url": "https://www.lonelyplanet.com/news/walking-tour-african-lisbon-history",
     "published_at": "2019-10-25T16:13:57Z",
-    "related_place_names": ["Portugal"],
+    "places": ["Portugal"],
     "related_place_slugs": ["portugal"]
   }
 ]

@@ -1,28 +1,54 @@
-import { useRef } from "preact/hooks";
+import { useState } from "preact/hooks";
+import PillStack from "../components/pill-stack.tsx";
 
 export default function TagFilter({
   tags,
   selectedTag,
 }: {
   tags: string[];
-  selectedTag?: string;
+  selectedTag?: string[];
 }) {
-  const form = useRef(null);
-  // @ts-ignore: proper typing needed for the ref
-  const onChange = () => form.current && form.current.submit();
+  const [localTags, setTags] = useState(tags);
+  const [localSelected, setSelectedTags] = useState(selectedTag);
+  const onInput = (e: Partial<InputEvent>) => {
+    const exp = (e.target as HTMLInputElement).value;
+    const filter = new RegExp(exp, "i");
+    const filteredTags = tags.filter((tag) => filter.test(tag));
+    setTags(filteredTags);
+  };
+
+  const onSelect = (e: Partial<InputEvent>) => {
+    const tags = Array.from((e.target as HTMLSelectElement).selectedOptions);
+    setSelectedTags(tags.map((tag) => tag.value));
+  };
+
   return (
-    <form ref={form} method="GET" className="rounded-xl max-w-full">
+    <div className="flex flex-col gap-y-1 w-full flex-1">
+      <input
+        className="p-2 rounded"
+        type="text"
+        onInput={onInput}
+        placeholder="Search tags"
+      />
       <select
-        className="py-2 px-4 rounded-xl hover:cursor-pointer bg-green-50 max-w-full"
+        multiple
+        className="hover:cursor-pointer p-2"
         name="tag"
-        onChange={onChange}
+        onChange={onSelect}
       >
-        {tags.map((tag) => (
-          <option value={tag} selected={tag === selectedTag}>
+        {localTags.map((tag) => (
+          <option
+            className="hover:bg-gray-100 p-2"
+            value={tag}
+            selected={selectedTag?.includes(tag)}
+          >
             {tag}
           </option>
         ))}
       </select>
-    </form>
+      {localSelected ? (
+        <PillStack stack={localSelected} type="tag" classNames="mt-2" />
+      ) : null}
+    </div>
   );
 }

@@ -5,7 +5,7 @@ import * as Icon from "@geist-ui/icons";
 export default function Layout({ children }: { children: ComponentChildren }) {
   return (
     <div className="w-full h-full min-h-screen bg-green-400 flex flex-col items-center gap-y-8 py-4">
-      <h1 className="text(2xl sm:4xl md:5xl lg:6xl)">
+      <h1 className="text(2xl sm:4xl md:5xl lg:6xl) mt-4">
         <a className="inline-flex items-center gap-x-1" href="/">
           Latest on Lonely <Icon.Globe size={40} /> Planet
         </a>
